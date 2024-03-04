@@ -1,0 +1,30 @@
+@mixin topBottonDisplay(){
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+@mixin widthHeightMargin(){
+    width: 350px;
+    height: 250px;
+    margin-left: -20px;
+}
+
+@mixin widthHeightPadding(){
+    width: 530px;
+    height: 400px;
+    padding:20px;
+}
+
+@mixin clickFont(){
+    font-size: 14px;
+    text-decoration: none;
+}
+@mixin fontParagraph(){
+    text-align: left;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}

@@ -1,0 +1,8 @@
+.section1{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    background-color: rgb(235, 208, 239);
+
+    @media all and (min-width:1200px){
+        display: grid;
+    }
+}

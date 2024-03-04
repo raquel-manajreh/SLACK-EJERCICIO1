@@ -1,0 +1,93 @@
+footer{
+    background-color: rgb(242, 229, 244);
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    margin: -10px;
+}
+
+.footer-section1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 30px;
+    margin-left: 15px;
+   
+    @media all and (min-width:1200px){
+        display:flex;
+        padding-top: 25px;
+    }
+
+    &_faq{
+
+        @media all and (min-width:1200px){
+        padding-left: 71px;
+        padding-right: 71px;
+        } 
+
+        &-h3{
+
+            @media all and (min-width:1200px){
+                @include clickFont();
+            }
+        }
+
+        & p{
+            text-align: left;
+            padding-top: 12px;
+
+            @media all and (min-width:1200px){
+            padding-top: 25px;
+            }
+        }
+
+        &-click{
+            @include clickFont();
+            font-weight: lighter;
+            
+        }
+    }
+}
+
+
+.footer-section2{
+    padding-top: 30px;
+    font-size: 15px;
+    margin-left: 20px;
+
+    @media all and (min-width:1200px){
+        padding-top: 10px;
+        padding-bottom: 0.5px;
+    }
+
+    &_final{
+        display: flex;
+        padding: 7px;
+
+        @media all and (min-width:1200px){
+            padding: 0px 89px 0px 89px;
+            color:black;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}
+
+.end{
+font-size: 10px;
+padding-top: 15px;
+color: rgb(86, 86, 86);
+
+    @media all and (min-width:1200px){
+        color: rgb(110, 110, 110);
+        font-size: 13px;
+        font-weight: lighter;
+        padding-bottom: 10px;
+        padding-top: 35px;
+    }
+}
+.intentionally-blank{
+    padding-top: 0px;
+
+    @media all and (min-width:1200px) {
+        padding-top: 3px;
+    }
+}

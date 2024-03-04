@@ -1,0 +1,12 @@
+header{
+    background-color: #5b0c5b;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: bold;
+    color: white;
+}
+section{
+    @media all and (min-width:1200px){
+        display:flex;
+        padding-bottom: 60px;
+    }
+}
